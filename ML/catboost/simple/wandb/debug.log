@@ -1,0 +1,35 @@
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Configure stats pid to 20594
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Loading settings from /home/cat/s204775/.config/wandb/settings
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Loading settings from /home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/wandb/settings
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'bsc_project', 'entity': 's204775', 'root_dir': '/home/cat/s204775/projects/Bachelor_project/ML/regression/catboost', 'run_id': '0sth61bk', 'sweep_param_path': '/home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/wandb/sweep-o9l09kyc/config-0sth61bk.yaml', 'sweep_id': 'o9l09kyc'}
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'PrOH_catboost.py', 'program_abspath': '/home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/PrOH_catboost.py', 'program': '/home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/PrOH_catboost.py'}
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_init.py:_log_setup():528] Logging user logs to /home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/wandb/run-20231129_223913-0sth61bk/logs/debug.log
+2023-11-29 22:39:13,434 INFO    Thread-300 (_run_job):20594 [wandb_init.py:_log_setup():529] Logging internal logs to /home/cat/s204775/projects/Bachelor_project/ML/regression/catboost/wandb/run-20231129_223913-0sth61bk/logs/debug-internal.log
+2023-11-29 22:39:13,435 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():568] calling init triggers
+2023-11-29 22:39:13,435 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():575] wandb.init called with sweep_config: {'bagging_temperature': 0, 'depth': 15, 'iteration': 1200, 'l2_leaf_reg': 8, 'learning_rate': 0.3, 'rsm': 1}
+config: {'rsm': 1, 'learning_rate': 0.1, 'depth': 8, 'l2_leaf_reg': 4, 'iteration': 1000, 'bagging_temperature': 1}
+2023-11-29 22:39:13,435 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():618] starting backend
+2023-11-29 22:39:13,435 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():622] setting up manager
+2023-11-29 22:39:13,441 INFO    Thread-300 (_run_job):20594 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-29 22:39:13,441 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():628] backend started and connected
+2023-11-29 22:39:13,452 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_config_callback():1324] config_cb None None {'bagging_temperature': 0, 'depth': 15, 'iteration': 1200, 'l2_leaf_reg': 8, 'learning_rate': 0.3, 'rsm': 1}
+2023-11-29 22:39:13,454 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():720] updated telemetry
+2023-11-29 22:39:13,455 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-29 22:39:13,906 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-29 22:39:13,987 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-29 22:39:13,987 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():804] starting run threads in backend
+2023-11-29 22:39:16,789 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-29 22:39:16,789 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-29 22:39:16,789 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-29 22:39:16,789 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-29 22:39:16,790 INFO    Thread-300 (_run_job):20594 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-29 22:40:15,736 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_finish():1934] finishing run s204775/bsc_project/0sth61bk
+2023-11-29 22:40:15,736 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-11-29 22:40:15,737 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_restore():2151] restore
+2023-11-29 22:40:15,737 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_restore():2157] restore done
+2023-11-29 22:40:20,856 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-29 22:40:20,857 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-29 22:40:20,862 INFO    Thread-300 (_run_job):20594 [wandb_run.py:_footer_sync_info():3558] logging synced files

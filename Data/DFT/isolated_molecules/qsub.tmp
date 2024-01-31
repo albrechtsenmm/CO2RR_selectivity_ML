@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=isolated_molecules_bag.py
+#SBATCH --nodes=1
+##SBATCH --mail-type=end
+#SBATCH --mail-user=s204775@dtu.dk  
+#SBATCH --partition=xeon40 
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=48:00:00
+#SBATCH --output=isolated_molecules_bag.log
+#SBATCH --error=isolated_molecules_bag.log
+
+mpiexec -n 40 python isolated_molecules_bag.py

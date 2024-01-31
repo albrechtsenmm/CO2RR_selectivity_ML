@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=baseline_H2.py
+#SBATCH --nodes=1
+##SBATCH --mail-type=end
+#SBATCH --mail-user=s204775@dtu.dk
+#SBATCH --partition=xeon24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=48:00:00
+#SBATCH --output=baseline_H2.log
+#SBATCH --error=baseline_H2.log
+
+source ~/miniconda3/bin/activate
+conda activate cattheory
+
+python baseline_H2.py

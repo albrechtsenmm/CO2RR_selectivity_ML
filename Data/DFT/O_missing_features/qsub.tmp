@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=Ni36_O.py
+#SBATCH --nodes=1
+##SBATCH --mail-type=end
+#SBATCH --mail-user=s204775@dtu.dk  
+#SBATCH --partition=xeon40 
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=48:00:00
+#SBATCH --output=Ni36_O.log
+#SBATCH --error=Ni36_O.log
+
+mpiexec -n 40 python Ni36_O.py

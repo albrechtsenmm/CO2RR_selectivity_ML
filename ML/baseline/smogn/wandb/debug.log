@@ -1,0 +1,34 @@
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Configure stats pid to 27280
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Loading settings from /home/cat/s204775/.config/wandb/settings
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Loading settings from /home/cat/s204775/projects/Bachelor_project/ML/regression/baseline/smogn/wandb/settings
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-01 21:44:44,091 INFO    MainThread:27280 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'baseline_CO.py', 'program_abspath': '/home/cat/s204775/projects/Bachelor_project/ML/regression/baseline/smogn/baseline_CO.py', 'program': '/home/cat/s204775/projects/Bachelor_project/ML/regression/baseline/smogn/baseline_CO.py'}
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:_log_setup():528] Logging user logs to /home/cat/s204775/projects/Bachelor_project/ML/regression/baseline/smogn/wandb/run-20240101_214444-n3kcgo3j/logs/debug.log
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:_log_setup():529] Logging internal logs to /home/cat/s204775/projects/Bachelor_project/ML/regression/baseline/smogn/wandb/run-20240101_214444-n3kcgo3j/logs/debug-internal.log
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:init():568] calling init triggers
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {}
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:init():618] starting backend
+2024-01-01 21:44:44,092 INFO    MainThread:27280 [wandb_init.py:init():622] setting up manager
+2024-01-01 21:44:44,098 INFO    MainThread:27280 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-01 21:44:44,100 INFO    MainThread:27280 [wandb_init.py:init():628] backend started and connected
+2024-01-01 21:44:44,106 INFO    MainThread:27280 [wandb_init.py:init():720] updated telemetry
+2024-01-01 21:44:44,108 INFO    MainThread:27280 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-01-01 21:44:44,605 INFO    MainThread:27280 [wandb_run.py:_on_init():2220] communicating current version
+2024-01-01 21:44:44,697 INFO    MainThread:27280 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-01 21:44:44,697 INFO    MainThread:27280 [wandb_init.py:init():804] starting run threads in backend
+2024-01-01 21:44:48,088 INFO    MainThread:27280 [wandb_run.py:_console_start():2199] atexit reg
+2024-01-01 21:44:48,089 INFO    MainThread:27280 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2024-01-01 21:44:48,089 INFO    MainThread:27280 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2024-01-01 21:44:48,089 INFO    MainThread:27280 [wandb_run.py:_redirect():2144] Redirects installed.
+2024-01-01 21:44:48,090 INFO    MainThread:27280 [wandb_init.py:init():845] run started, returning control to user process
+2024-01-01 21:44:48,182 INFO    MainThread:27280 [wandb_run.py:_finish():1934] finishing run s204775/bsc_project/n3kcgo3j
+2024-01-01 21:44:48,182 INFO    MainThread:27280 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2024-01-01 21:44:48,183 INFO    MainThread:27280 [wandb_run.py:_restore():2151] restore
+2024-01-01 21:44:48,183 INFO    MainThread:27280 [wandb_run.py:_restore():2157] restore done
+2024-01-01 21:44:52,915 INFO    MainThread:27280 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-01-01 21:44:52,915 INFO    MainThread:27280 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-01-01 21:44:52,922 INFO    MainThread:27280 [wandb_run.py:_footer_sync_info():3558] logging synced files
